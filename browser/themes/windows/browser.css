@@ -1611,8 +1611,8 @@ notification[value="translation"] {
 .statuspanel-label {
   margin: 0;
   padding: 2px 4px;
-  background-color: -moz-dialog;
-  border: 1px none ThreeDLightShadow;
+  background: -moz-dialog;
+  border: 1px none ThreeDShadow;
   border-top-style: solid;
   color: -moz-dialogText;
   text-shadow: none;
@@ -1620,8 +1620,9 @@ notification[value="translation"] {
 
 @media (-moz-windows-default-theme) {
   .statuspanel-label {
-    background-color: #f9f9fa;
-    color: #444;
+    background: linear-gradient(#fff, #ddd);
+    border-color: #ccc;
+    color: #333;
   }
 }
 

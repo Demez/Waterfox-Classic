@@ -1820,10 +1820,10 @@ html|*.addon-webext-perm-list {
 .statuspanel-label {
   margin: 0;
   padding: 2px 4px;
-  background-color: #f9f9fa;
-  border: 1px none #ddd;
+  background: linear-gradient(#fff, #ddd);
+  border: 1px none #ccc;
   border-top-style: solid;
-  color: #444;
+  color: #333;
   text-shadow: none;
 }
 
